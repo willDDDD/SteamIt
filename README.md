@@ -9,3 +9,9 @@ There are three main parts. First part is game name search, users can enter the 
 Our application provides a new way of recommending games. Normal search engine would only return the result related to user’s already bought game, while our application provides a new way of providing a list of games that people who at the same or nearby age have once searched or were interested in. We also provide another game list according to the search history which offers a different view.
 ## Raw Data references
 We download the raw datasets from Kaggle.com and use Jupyter notebooks to process raw data in order to get proper form to fit in Google Cloud platform.
+
+## Authors and acknowledgment
+Xiuhao Ding - Front/backend integration, dataflow integration, Processing raw data, Database algorithm.
+Yu Yang - Processing raw data, Analyze indexing, Front/backend integration.
+Fangyi Zhang - Front page design, Video
+Zongxian Feng - Deploying our React App to Google Cloud Platform, Processing raw data, Front/backend integration, Assist other team members.
