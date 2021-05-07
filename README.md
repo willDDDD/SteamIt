@@ -12,6 +12,9 @@ We download the raw datasets from Kaggle.com and use Jupyter notebooks to proces
 
 ## Authors and acknowledgment
 Xiuhao Ding - Front/backend integration, dataflow integration, Processing raw data, Database algorithm.
+
 Yu Yang - Processing raw data, Analyze indexing, Front/backend integration.
+
 Fangyi Zhang - Front page design, Video
+
 Zongxian Feng - Deploying our React App to Google Cloud Platform, Processing raw data, Front/backend integration, Assist other team members.
