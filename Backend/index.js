@@ -4,9 +4,9 @@ const app = express();
 const mysql = require("mysql");
 const cors = require("cors");
 var db = mysql.createConnection({
-    host: '35.184.167.82',
+    host: 'Local host',
     user: 'root',
-    password: '1234',
+    password: 'Private password',
     database: 'steamit',
 })
 app.use(cors());
@@ -132,78 +132,3 @@ app.put("/api/update/", (require, response) => {
 app.listen(3002, () => {
     console.log("running on port 3002");
 })
-// const express = require("express");
-// const bodyParser = require("body-parser");
-// const app = express();
-// const mysql = require("mysql");
-// const cors = require("cors");
-
-// var db = mysql.createConnection({
-//     host:'35.184.167.82',
-//     user: 'root',
-//     password:'1234',
-//     database:'steamit',
-//    })
-
-// // db.connect(function(err) {
-// //     if (err) throw err;
-// //     var sql = "INSERT INTO `movie_reviews` (`id`,`name`, `genres`) VALUES (5,'inception', 'good movie');";
-// //     db.query(sql, function (err, result) {
-// //       if (err) throw err;
-// //       console.log(result.affectedRows + " record(s) updated");
-// //     });
-// //   });
-
-// // app.get('/', (require, response) => {
-// //     const sqlInsert = "INSERT INTO `movie_reviews` (`name`, `genres`) VALUES ('Spider2', 'good movie');";
-// //     db.query(sqlInsert, (err, result) => {
-// //         response.send("Hello world!!!");
-// //     })
-// // })
-
-// app.use(cors());
-// app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(express.json());
-
-// app.get("/api/get", (require, response) => {
-//     const sqlSelect = "Select u.name, u.genres, temp.gname as gname From UsersDemo u, ((Select g.genres as genres, g.name as gname, g.Price as p From Game g Where g.Price < 100 Order by p Limit 5) Union (Select g.genres as genres, g.name as gname, r.positive_ratings as p from Game g join Ratings r using(appid) Where r.positive_ratings >100 and r. average_playtime > 50 Order by p)) as temp where u.genres = temp.genres limit 10;";
-//     // const sqlSelect = "select * from UsersDemo";
-//     db.query(sqlSelect, (err, result) => {
-//         response.send(result);
-//     });
-// });
-
-// app.post("/api/insert", (require, response) => {
-//     const name = require.body.name;
-//     const genres = require.body.genres;
-
-//     const sqlInsert = "INSERT INTO UsersDemo (name, genres) VALUES (?,?)";
-//     db.query(sqlInsert, [name, genres], (err, result) => {
-//         console.log(err);
-//     })
-// });
-
-// app.delete("/api/delete/:name", (require, response) => {
-//     const name = require.params.name;
-
-//     const sqlDelete = "DELETE FROM UsersDemo WHERE name= ?";
-//     db.query(sqlDelete, name, (err, result) => {
-//         if (err) 
-//         console.log(err);
-//     })
-// });
-
-// app.put("/api/update/", (require, response) => {
-//     const name = require.body.name;
-//     const genres = require.body.genres;
-
-//     const sqlUpdate = "UPDATE UsersDemo SET genres = ? WHERE name= ?";
-//     db.query(sqlUpdate, [genres,name ], (err, result) => {
-//         if (err) 
-//         console.log(err);
-//     })
-// });
-
-// app.listen(3002, () => {
-//     console.log("running on port 3002");
-// })
