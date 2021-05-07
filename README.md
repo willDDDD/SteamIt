@@ -1,6 +1,8 @@
 # SteamIt
 
 ## Project Title: SteamIt
+## Short Inroduction Video link: https://www.youtube.com/watch?v=RmphNa43UIo
+In this video, we are using the localhost page. Our react-gcp-deploy page is https://steamit-307006.uc.r.appspot.com/. Unless we open our GCP instances and run the backend, this webpage will not work as shown in the video.
 ## Project Summary
 Our application “steamit” is a website that provides game recommendations to users according to different aspects such as age, tag, genres. We also record the search history of each user to improve our accuracy of recommendation.
 ## Main parts of our website
@@ -18,3 +20,4 @@ Yu Yang - Processing raw data, Analyze indexing, Front/backend integration.
 Fangyi Zhang - Front page design, Video
 
 Zongxian Feng - Deploying our React App to Google Cloud Platform, Processing raw data, Front/backend integration, Assist other team members.
+## For more specific information, pleace read the final report that we upload above.
