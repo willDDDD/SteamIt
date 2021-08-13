@@ -6,6 +6,7 @@ In this video, we are using the localhost page. Our react-gcp-deploy page is htt
 
 ## Default Run
 Frontend: npm start
+
 Backend: npm run devStart
 
 
