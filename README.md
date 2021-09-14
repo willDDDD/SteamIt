@@ -1,7 +1,7 @@
 # SteamIt
 
 ## Project Title: SteamIt
-## Short Inroduction Video link: https://www.youtube.com/watch?v=RmphNa43UIo
+### Short Inroduction Video link: https://www.youtube.com/watch?v=RmphNa43UIo
 In this video, we are using the localhost page. Our react-gcp-deploy page is https://steamit-307006.uc.r.appspot.com/. Unless we open our GCP instances and run the backend, this webpage will not work as shown in the video.
 
 ## Default Run
