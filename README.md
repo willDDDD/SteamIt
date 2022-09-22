@@ -19,11 +19,11 @@ Our application provides an advanced way of recommending games. Popular game sea
 ## Raw Data references
 We collect the data in Kaggle: https://www.kaggle.com/nikdavis/steam-store-games. The data are in csv files. We download the data and pre-process it in Juypter Notebook using pandas DataFrame to manipulate columns and table index. Then we uploaded the processed datasets to GCP Storage bucket. Then we create corresponding empty tables then import the dataset by csv.
 ## Authors and acknowledgment
-Xiuhao Ding - Front/backend integration, dataflow integration, Processing raw data, Database algorithm.
+Xiuhao Ding
 
-Yu Yang - Processing raw data, Analyze indexing, Front/backend integration.
+Yu Yang
 
-Fangyi Zhang - Front page design, Video
+Fangyi Zhang 
 
-Zongxian Feng - Deploying our React App to Google Cloud Platform, Processing raw data, Front/backend integration, Assist other team members.
+Zongxian Feng
 ## For more specific information, pleace read the final report that we upload above.
